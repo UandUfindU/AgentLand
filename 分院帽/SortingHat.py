@@ -3,7 +3,7 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_core.prompts import ChatPromptTemplate
 from LLM import *
 
-llm = GLMFlash_LLM_Memory(api_key="50d79333873f56e2ac8029560c32d2aa.pxMNM2qMDk5KdvdQ")
+llm = GLMFlash_LLM_Memory(api_key="")
 
 # 定义聊天提示模板
 prompt_message = """
